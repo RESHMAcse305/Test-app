@@ -1,0 +1,58 @@
+<h1>students  componets </h1>
+<!-- <img src="../assets/Nanimo-Slice4.jpg" height="300px" width="350px">
+<h1>welcome  {{name}}</h1>
+<h2>sum :{{n+n}}</h2>
+<p>product :{{10*3}}</p>
+<p>{{"haiii..."+"neema.."}}</p>
+<h1>{{name.length}}</h1>
+<br>
+<h1>{{name.toUpperCase()}}</h1>
+<h1>{{display()}}</h1> -->
+<!-- <input type="text" value="welcome" >
+<br>
+<input type="text" [value]="name">
+<br>
+<input type="text" value="{{name}}"> -->
+<!-- <h1 class="danger">{{msg}}</h1>
+<br>
+<h1 [class]="ischeck">{{msg}}</h1>
+
+<h1 [class.danger]="type1">{{msg}}</h1>
+<br>
+<h1 [class.success]="type2">{{msg}}</h1> -->
+<!-- {{Buttonstatus}}
+<br>
+<button (click)="check()"> Click me</button> -->
+<!-- <input type="text" [(ngModel)]="msg">
+<br>
+<input type="text" [(ngModel)]="msg"> -->
+<!-- <button (click)="Onclick()">click me</button>
+<br>
+<p *ngIf="msg">Hiiii good morning</p>
+<br>
+<p *ngIf="!msg">Haiii GOOD AFTERNOON</p> -->
+<!-- <br>
+<div *ngIf="msg;else t1">
+    welcome
+</div>
+<ng-template #t1>
+    <p>hello..good morning</p>
+</ng-template> -->
+<!-- <ng-template [ngIf]="msg" [ngIfElse]="t1">
+    <p>hello..good morning</p>
+</ng-template>
+<ng-template #t1>
+    <p>haiii..good AFTERNOON</p>
+</ng-template> -->
+<!-- <ul>
+    <li *ngFor="let item of slist">
+        {{item.Name}},{{item.Age}},{{item.mark}}
+    </li>
+</ul> -->
+<container-element [ngSwitch]="today">
+    <span *ngSwitchCase="0"><h1>Sunday</h1></span>
+    <span *ngSwitchCase="1"><h1>Monday</h1></span>
+    <span *ngSwitchCase="2"> <h1>Tuesday</h1></span>
+    <span *ngSwitchCase="3"><h1>Wednesday</h1></span>
+    <span *ngSwitchCase="4"><h1>Thursday</h1></span>
+</container-element>
